@@ -10,7 +10,7 @@ create database hw default character set = 'utf8';
 -- Display the creation information of the database
 show variables;
 -- Revise the codes of the database
-
+alter database hw character set 'utf8';
 -- Delete a database
 drop database hw;
 -- **Table level**
